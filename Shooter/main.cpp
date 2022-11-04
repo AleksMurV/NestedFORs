@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<conio.h>
 using namespace std;
 
@@ -23,32 +23,32 @@ void main()
 	{
 		key = _getch();
 		//cout << (int)key << "\t" << key << endl;
-		// (int)key - ÿâíîå ïðåîáðàçîâàíèå òèïîâ
+		// (int)key - ÑÐ²Ð½Ð¾Ðµ Ð¿Ñ€ÐµÐ¾Ð±Ñ€Ð°Ð·Ð¾Ð²Ð°Ð½Ð¸Ðµ Ñ‚Ð¸Ð¿Ð¾Ð²
 
 #ifdef IF_SHOOTER
 		if (key == 'w' || key == 'W' || key == UP_ARROW)
 		{
-			cout << "Âïåðåä" << endl;
+			cout << "Ð’Ð¿ÐµÑ€ÐµÐ´" << endl;
 		}
 		else if (key == 's' || key == 'S' || key == DOWN_ARROW)
 		{
-			cout << "Íàçàä" << endl;
+			cout << "ÐÐ°Ð·Ð°Ð´" << endl;
 		}
 		else if (key == 'd' || key == 'D' || key == LEFT_ARROW)
 		{
-			cout << "Âïðàâî" << endl;
+			cout << "Ð’Ð¿Ñ€Ð°Ð²Ð¾" << endl;
 		}
 		else if (key == 'a' || key == 'A' || key == RIGHT_ARROW)
 		{
-			cout << "Âëåâî" << endl;
+			cout << "Ð’Ð»ÐµÐ²Ð¾" << endl;
 		}
 		else if (key == ' ')
 		{
-			cout << "Ïðûæîê" << endl;
+			cout << "ÐŸÑ€Ñ‹Ð¶Ð¾Ðº" << endl;
 		}
 		else if (key == Enter)
 		{
-			cout << "Îãîíü" << endl;
+			cout << "ÐžÐ³Ð¾Ð½ÑŒ" << endl;
 		}
 		else
 		{
@@ -61,18 +61,18 @@ void main()
 		{
 		case UP_ARROW:
 		case 'w':
-		case 'W': cout << "Âïåðåä" << endl;  break;
+		case 'W': cout << "Ð’Ð¿ÐµÑ€ÐµÐ´" << endl;  break;
 		case LEFT_ARROW:
 		case 's':
-		case 'S': cout << "Íàçàä" << endl;   break;
+		case 'S': cout << "ÐÐ°Ð·Ð°Ð´" << endl;   break;
 		case RIGHT_ARROW:
 		case 'a':
-		case 'A': cout << "Âëåâî" << endl;   break;
+		case 'A': cout << "Ð’Ð»ÐµÐ²Ð¾" << endl;   break;
 		case DOWN_ARROW:
 		case 'd':
-		case 'D': cout << "Âïðàâî" << endl;  break;
-		case ' ': cout << "Ïðûæîê" << endl;  break;
-		case Enter: cout << "Îãîíü" << endl; break;
+		case 'D': cout << "Ð’Ð¿Ñ€Ð°Ð²Ð¾" << endl;  break;
+		case ' ': cout << "ÐŸÑ€Ñ‹Ð¶Ð¾Ðº" << endl;  break;
+		case Enter: cout << "ÐžÐ³Ð¾Ð½ÑŒ" << endl; break;
 		case Escape: cout << "Exit" << endl;
 		case -32:break;
 		default: cout << "Error" << endl;
